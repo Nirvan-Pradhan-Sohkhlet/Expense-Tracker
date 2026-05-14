@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://expense-tracker-server-production-4737.up.railway.app/api' });
+const API = axios.create({ 
+  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:5000/api' 
+});
 
 // Add a request interceptor to attach the JWT token automatically
 API.interceptors.request.use((config) => {
