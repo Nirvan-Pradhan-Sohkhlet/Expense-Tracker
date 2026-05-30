@@ -2,13 +2,6 @@
 
 Ledgerly is a modern, full-stack financial monitoring application designed to simplify expense tracking and budgeting. Built on the **MERN (MongoDB, Express, React, Node.js)** architecture, Ledgerly helps users visualize monthly spending, manage category-specific limits, and gain clear spending insights through a clean, responsive, dark-mode-optimized dashboard.
 
-## **🚀 Live Demo**
-
-Access the production application live here:
-
-* **Frontend:** [https://ledgerly-v1.up.railway.app](https://ledgerly-v1.up.railway.app)  
-* **Backend API:** [https://expense-tracker-server-production-2ad7.up.railway.app](https://expense-tracker-server-production-2ad7.up.railway.app)
-
 ## **✨ Features**
 
 * **Real-time Dashboard:** Immediate feedback on total spending, transaction summaries, and budget health.  
